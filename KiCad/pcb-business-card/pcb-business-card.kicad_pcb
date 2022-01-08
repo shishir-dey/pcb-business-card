@@ -83,4 +83,27 @@
 
   (net 0 "")
 
+  (footprint "LOGO" (layer "F.Cu")
+    (tedit 0) (tstamp 269f19c3-6824-45a8-be29-fa58d70cbb42)
+    (at 149.64 99.5)
+    (attr through_hole)
+    (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
+      (tstamp 1d9cdadc-9036-4a95-b6db-fa7b3b74c869)
+    )
+    (fp_text value "LOGO" (at 0.75 0) (layer "F.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
+      (tstamp 3a7648d8-121a-4921-9b92-9b35b76ce39b)
+    )
+  )
+
+  (gr_arc (start 190.54 75.6) (mid 192.307767 76.332233) (end 193.04 78.1) (layer "Edge.Cuts") (width 0.15) (tstamp 1dfbf353-5b24-4c0f-8322-8fcd514ae75e))
+  (gr_arc (start 110.04 129.5) (mid 108.272233 128.767767) (end 107.54 127) (layer "Edge.Cuts") (width 0.15) (tstamp 2e0a9f64-1b78-4597-8d50-d12d2268a95a))
+  (gr_arc (start 193.04 127) (mid 192.307767 128.767767) (end 190.54 129.5) (layer "Edge.Cuts") (width 0.15) (tstamp 582622a2-fad4-4737-9a80-be9fffbba8ab))
+  (gr_line (start 110.04 129.5) (end 190.54 129.5) (layer "Edge.Cuts") (width 0.15) (tstamp 9aaeec6e-84fe-4644-b0bc-5de24626ff48))
+  (gr_line (start 107.54 78.1) (end 107.54 127) (layer "Edge.Cuts") (width 0.15) (tstamp d3e133b7-2c84-4206-a2b1-e693cb57fe56))
+  (gr_line (start 190.54 75.6) (end 110.04 75.6) (layer "Edge.Cuts") (width 0.15) (tstamp da481376-0e49-44d3-91b8-aaa39b869dd1))
+  (gr_arc (start 107.54 78.1) (mid 108.272233 76.332233) (end 110.04 75.6) (layer "Edge.Cuts") (width 0.15) (tstamp e0c7ddff-8c90-465f-be62-21fb49b059fa))
+  (gr_line (start 193.04 127) (end 193.04 78.1) (layer "Edge.Cuts") (width 0.15) (tstamp f988d6ea-11c5-4837-b1d1-5c292ded50c6))
+
 )
